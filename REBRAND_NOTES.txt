@@ -1,0 +1,19 @@
+Root Realm rebrand
+==================
+
+New display name:        Root Realm
+New application ID:      com.faroquetech.rootrealm
+
+The existing application source, activities, features, permissions, dependencies,
+and release signing files were preserved. Package declarations/directories and
+old branding references were renamed. The global theme class was renamed to
+RootRealmGlobalTheme. Launcher icon assets were replaced with Root Realm RR
+branding.
+
+Generated Gradle/build caches were removed so Code on the Go/Gradle can regenerate
+project metadata for the new project path.
+
+Build verification note:
+The rebranded source was statically checked in this environment. A Gradle release
+build could not be executed here because the Gradle wrapper distribution was not
+available locally and this environment cannot reach services.gradle.org.

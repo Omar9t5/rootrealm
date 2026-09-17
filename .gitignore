@@ -1,0 +1,20 @@
+# Signing secrets
+*.keystore
+*.jks
+release.properties
+
+# Gradle
+.gradle/
+build/
+app/build/
+
+# Code On the Go / Android Studio
+.idea/
+*.iml
+
+# Local configuration
+local.properties
+
+# Local backups / Code On the Go
+.cg/
+*.bak

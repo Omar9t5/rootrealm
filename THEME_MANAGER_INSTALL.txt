@@ -1,0 +1,13 @@
+Root Realm Global Theme Manager v1
+
+Files are based on the latest Root Realm Battery Manager v17 and OTA Extractor v13.
+
+Add to AndroidManifest.xml:
+<activity android:name="com.faroquetech.theme.ThemeManagerActivity" />
+
+Open from your main/home UI:
+startActivity(android.content.Intent(this, com.faroquetech.theme.ThemeManagerActivity::class.java))
+
+Themes are persisted in SharedPreferences. Recreate/reopen another screen after changing theme so it rebuilds with the selected palette.
+
+Current device-control safety behavior is unchanged. Theme code is UI-only.
