@@ -35,7 +35,7 @@ Advanced Android system tools for root, Shizuku, ADB, backup, debloating, and de
 
 ### Requirements
 
-- Android 8.0 (API 26) or higher
+- Android 12 (API 31) or higher
 - Root access **or** Shizuku installed and running
 - USB debugging enabled (for ADB features)
 
