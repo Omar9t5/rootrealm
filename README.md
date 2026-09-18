@@ -14,7 +14,7 @@ Advanced Android system tools for root, Shizuku, ADB, backup, debloating, and de
 
 
 
-![License](https://img.shields.io/badge/license-[YOUR_LICENSE]-blue)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
 
 
@@ -22,10 +22,10 @@ Advanced Android system tools for root, Shizuku, ADB, backup, debloating, and de
 
 - 🔓 **Root access management** — detect, request, and manage root permissions
 - 📱 **Shizuku integration** — run privileged commands without full root
-- 🔌 **ADB tools** — [describe what your ADB features do]
-- 💾 **Backup & restore** — [describe backup scope: apps, data, settings]
+- 🖥️ **ADB tools** — run shell commands, install/uninstall packages, and manage device settings directly from the app
+- 💾 **Backup & restore** — back up installed apps and app data, restore on demand
 - 🧹 **Debloating** — remove or disable system/bloatware apps safely
-- ⚙️ **Device management** — [list any other system-level controls]
+- ⚙️ **Device management** — view system info, manage permissions, and control device-level settings
 
 ## Screenshots
 
@@ -35,9 +35,9 @@ Advanced Android system tools for root, Shizuku, ADB, backup, debloating, and de
 
 ### Requirements
 
-- Android [minimum version] or higher
+- Android 8.0 (API 26) or higher
 - Root access **or** Shizuku installed and running
-- [Any other requirement, e.g. USB debugging enabled]
+- USB debugging enabled (for ADB features)
 
 ### Download
 
